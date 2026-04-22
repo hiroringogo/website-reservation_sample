@@ -55,6 +55,8 @@ function Hero() {
           fill
           className="object-cover"
           priority
+          sizes="100vw"
+          quality={90}
         />
       </div>
       <div className="max-w-7xl mx-auto px-6 -mt-16 md:-mt-20 relative z-10">
@@ -188,6 +190,7 @@ function Gallery() {
                 alt={img.alt}
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-300"
+                sizes="(max-width: 768px) 50vw, 33vw"
               />
             </div>
           ))}
