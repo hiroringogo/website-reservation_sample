@@ -191,6 +191,7 @@ function Gallery() {
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-300"
                 sizes="(max-width: 768px) 50vw, 33vw"
+                quality={90}
               />
             </div>
           ))}
